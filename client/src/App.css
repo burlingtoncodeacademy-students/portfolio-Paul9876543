@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redacted+Script&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/* navbar styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  background: crimson;
+  font-family: "source+sans+3";
+  font-weight: 700;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* "Portfolio"  */
+.navbar .logo a {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* List style */
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* List color */
+.navbar .menu li a {
+  color: darkblue;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+/* Home styling */
+.home {
+  display: flex;
+  background-image: ("./background.jpg") no-repeat center;
+  background-image: ("paul.jpg");
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+  font-family: "source+sans+3";
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+/* Text one styling */
+.home .home-content .text-1 {
+  font-size: 27px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+/* Text two styling */
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 700;
+  margin-left: -3px;
+}
+
+/* Text three styling */
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+/* Text three span styling */
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 700;
+}
+
+/* Second background image */
+body {
+  background-image: ("./background.jpg") no-repeat center;
+}
